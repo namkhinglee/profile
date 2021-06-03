@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;900&display=swap');
+
+body{
+  background-color: #F7F7F5;
+}
+
+li {
+  font-family: 'Helvetica';
+  font-size: 16px;
+  list-style-type: none;
+}
+
+h1 {
+  font-family: Chivo;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin:0px;
+}
+
+h2 {
+  font-family: Chivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+h3 {
+  font-family: 'Chivo', sans-serif;
+  color: black;
+}
+
+.container ul {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-right{
+  margin-top:42px;
+  text-align: left;
+  width: 40%;
+  height: 712px;
+  right:0;
+}
+
+.box-left{
+  margin-top:42px ;
+  text-align: left;
+  width: 60%;
+  height: 712px;
+}
+
+.box-left .container {
+  margin: 0px;
+  padding: 0px;
+  width: 312px;
+}
+
+.btn {
+  border: 1px solid #000000;
+  padding: 2px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.bottom {
+  position: absolute;
+   bottom: 0px;
+}
+
+.verticle-center {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+}
+
+.container {
+  background-color: none;
+  margin: 24px 72px 96px 72px;
+}
+
+.sub-container {
+  margin: 0;
+}
+
+#content {
+  display: flex;
+}
+
+.hug-content{
+  min-height: 100px;
+  overflow: hidden;
+}
+
+#avatar {
+  width: 438px;
+  height: 572px;
+  margin-top: 12px;
+  position: absolute;
+  object-fit: cover;
+}
+
+#avatar:hover {
+  content: url('images/profile-02.jpg'); /*image not change*/
+}
+
+ul {
+  padding: 0px;
+  display: flex;
+}
+
+.list-inline {
+  margin: 20px;
+  display: inline;
+}
+
+#social {
+  margin: 0;
+}
+
+#empty {
+  width: 20%;
+}
+
+i {
+  margin-right: 20px;
+ }
+
+ a {
+  color: black;
+  text-decoration: none;
+ }
+
+ a:hover {
+  text-decoration:
+ }
+
+ @media (max-width: 500px) {
+  #content {
+    flex-direction: column;
+  }
